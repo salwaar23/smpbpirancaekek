@@ -15,10 +15,10 @@ function home(){
     })
 
     const images = [
-        "./src/components/assets/image1.png",
-        "./src/components/assets/image2.png",
-        "./src/components/assets/image3.png",
-        "./src/components/assets/image4.png",
+        "./src/assets/image1.png",
+        "./src/assets/image2.png",
+        "./src/assets/image3.png",
+        "./src/assets/image4.png",
     ];
 
     useEffect(() => {
@@ -57,7 +57,7 @@ function home(){
             </div>
             <div className="lg:block hidden mt-[100px] ml-10">
                 <div className="inline-flex">
-                    <img src="./src/components/assets/image6.avif" className="h-[400px] rounded-lg"/>
+                    <img src="./src/assets/image6.avif" className="h-[400px] rounded-lg"/>
                     <div data-aos="flip-up">
                         <h1 className="text-[#EE9322] font-bold text-3xl ml-[250px] mt-20">Mengapa SMP BPI Rancaekek?</h1>
                         <p className="text-center ml-[160px] mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, reiciendis! <br/>Obcaecati ipsa dolor cumque. Deleniti officia atque odio dolor nulla,<br/> laudantium ullam. Fugit ipsa tempore vero dolorum minima? Corrupti, exercitationem!</p>
@@ -72,7 +72,7 @@ function home(){
                             <div className="text-white text-3xl font-bold mt-20">Sambutan Kepala Sekolah</div>
                             <p className="text-white text-sm mt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos et ratione mollitia, ex animi nulla atque id<br/> cum optio quod eveniet tempora deserunt quam est. Rem sit iusto nam voluptatibus!</p>
                         </div>
-                        <img src="./src/components/assets/image5.jpg" className="w-[400px] ml-[200px]"/>
+                        <img src="./src/assets/image5.jpg" className="w-[400px] ml-[200px]"/>
                     </div>
                 </div>
             </div>
@@ -101,7 +101,7 @@ function home(){
                     <h1 className="text-center font-bold text-[#EE9322] text-xl mt-5">Mengapa SMP BPI Rancaekek</h1>
                     <div className="inline-flex">
                         <p className="text-sm ml-4 mt-5" data-aos="fade-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum dolorum deserunt iste ratione magni, dignissimos aut. Quam tempora perspiciatis unde, sed doloremque, vel perferendis harum expedita atque maiores laudantium cumque!</p>
-                        <img src="./src/components/assets/image6.avif" className="w-[160px] mt-5" data-aos="fade-left"/>
+                        <img src="./src/assets/image6.avif" className="w-[160px] mt-5" data-aos="fade-left"/>
                     </div>
                     <a href="https://youtube.com"><button className="w-[150px] bg-[#005972] text-white py-1 rounded-lg ml-[117px] mt-10">Daftar Sekarang</button></a>
                 </div>
@@ -109,7 +109,7 @@ function home(){
             <div className="lg:hidden flex justify-center pb-[40px] mt-10" data-aos="fade-up">
                 <div className="box-border bg-[#EE9322] w-[300px] h-[450px] shadow-lg rounded-lg mt-10">
                     <div className="text-white text-center font-semibold mt-2 text-xl font-serif">Sambutan Kepala Sekolah</div>
-                    <img src="./src/components/assets/image5.jpg" className="w-[200px] ml-[50px] rounded-lg mt-4"/>
+                    <img src="./src/assets/image5.jpg" className="w-[200px] ml-[50px] rounded-lg mt-4"/>
                     <blockquote className="text-white ml-4 text-4xl mt-6">❝</blockquote>
                     <div className="text-white -mt-10 ml-10 text-sm pr-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, veritatis! Unde veniam sunt distinctio asperiores, in eum et, consectetur, vero nam iusto nihil ut incidunt reprehenderit est perferendis illo odit.</div>
                 </div>
