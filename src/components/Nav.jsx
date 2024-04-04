@@ -159,7 +159,7 @@ function Nav(){
                     <button onClick={toggleSubMenu2}>
                     <p className="text-gray-700 hover:text-gray-900 hover:font-bold inline-flex">
                         Program
-                        {subMenuOpen2 ? <FaChevronUp className="mt-1 fixed right-[-78px]"/> : <FaChevronDown className="mt-1 fixed right-[-78px]"/>}
+                        {subMenuOpen2 ? <FaChevronUp className="mt-1 fixed left-[170px]"/> : <FaChevronDown className="mt-1 fixed left-[170px]"/>}
                     </p>
                     </button>
                     {subMenuOpen2 && (
