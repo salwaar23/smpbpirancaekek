@@ -159,7 +159,7 @@ function Nav(){
                     <button onClick={toggleSubMenu2}>
                     <p className="text-gray-700 hover:text-gray-900 hover:font-bold inline-flex">
                         Program
-                        {subMenuOpen2 ? <FaChevronUp className="mt-1 fixed right-[-52px]"/> : <FaChevronDown className="mt-1 fixed right-[-52px]"/>}
+                        {subMenuOpen2 ? <FaChevronUp className="mt-1 fixed right-[-78px]"/> : <FaChevronDown className="mt-1 fixed right-[-78px]"/>}
                     </p>
                     </button>
                     {subMenuOpen2 && (
@@ -190,7 +190,7 @@ function Nav(){
                     <button onClick={toggleSubMenu3}>
                     <p className="text-gray-700 hover:text-gray-900 hover:font-bold inline-flex">
                         Pendaftaran
-                        {subMenuOpen3 ? <FaChevronUp className="mt-1 fixed right-[-52px]"/> : <FaChevronDown className="mt-1 fixed right-[-52px]"/>}
+                        {subMenuOpen3 ? <FaChevronUp className="mt-1 fixed right-[-76px]"/> : <FaChevronDown className="mt-1 fixed right-[-76px]"/>}
                     </p>
                     </button>
                     {subMenuOpen3 && (
