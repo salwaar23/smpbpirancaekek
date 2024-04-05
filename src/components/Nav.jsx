@@ -131,7 +131,7 @@ function Nav(){
                     <button onClick={toggleSubMenu}>
                     <p className="text-gray-700 hover:text-gray-900 hover:font-bold inline-flex">
                         Profil
-                        {subMenuOpen ? <FaChevronUp className="mt-1 fixed right-7"/> : <FaChevronDown className="mt-1 fixed right-7"/>}
+                        {subMenuOpen ? <FaChevronUp className="mt-1 ml-[80px]"/> : <FaChevronDown className="mt-1 ml-[80px]"/>}
                     </p>
                     </button>
                     {subMenuOpen && (
@@ -159,12 +159,12 @@ function Nav(){
                     <button onClick={toggleSubMenu2}>
                     <p className="text-gray-700 hover:text-gray-900 hover:font-bold inline-flex">
                         Program
-                        {subMenuOpen2 ? <FaChevronUp className="mt-1 fixed left-[170px]"/> : <FaChevronDown className="mt-1 fixed left-[170px]"/>}
+                        {subMenuOpen2 ? <FaChevronUp className="mt-1 ml-[55px]"/> : <FaChevronDown className="mt-1 ml-[55px]"/>}
                     </p>
                     </button>
                     {subMenuOpen2 && (
                         <ul className="absolute pl-5">
-                            <Link to={`/kurikulum`} className="">
+                            <Link to={`/kurikulum`} className="w-full">
                                 <li className="mt-1 hover:font-bold">Kegiatan</li>
                             </Link>
                             <Link to={`/unggulan`} className="">
@@ -188,10 +188,10 @@ function Nav(){
                     `}> 
                     <li className="ml-4">
                     <button onClick={toggleSubMenu3}>
-                    <p className="text-gray-700 hover:text-gray-900 hover:font-bold inline-flex">
-                        Pendaftaran
-                        {subMenuOpen3 ? <FaChevronUp className="mt-1 fixed right-[-76px]"/> : <FaChevronDown className="mt-1 fixed right-[-76px]"/>}
-                    </p>
+                    <div className="text-gray-700 hover:text-gray-900 hover:font-bold inline-flex">
+                        <div>Pendaftaran</div>
+                        <div className="mt-1 ml-[30px]">{subMenuOpen3 ? <FaChevronUp className=""/> : <FaChevronDown className=""/>}</div>
+                    </div>
                     </button>
                     {subMenuOpen3 && (
                         <ul className="absolute pl-5">

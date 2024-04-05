@@ -56,12 +56,12 @@ function home(){
                 </div>
             </div>
             <div className="lg:block hidden mt-[100px] ml-10">
-                <div className="inline-flex">
+                <div className="inline-flex space-x-[250px]">
                     <img src="./assets/image6.avif" className="h-[400px] rounded-lg"/>
                     <div data-aos="flip-up">
-                        <h1 className="text-[#EE9322] font-bold text-3xl ml-[250px] mt-20">Mengapa SMP BPI Rancaekek?</h1>
-                        <p className="text-center ml-[160px] mt-4">1. Sudah terakreditasi "B" <br/>2. Memiliki beberapa program unggulan<br/> 3. </p>
-                        <a href="https://forms.gle/s12kvk4unqdfsejQA"><button className="text-2xl bg-[#005972] px-7 py-2 rounded-lg text-white mt-4 ml-[340px] inline-flex">Daftar Sekarang<FaArrowRight className="ml-2 mt-[5px]"/></button></a>
+                        <h1 className="text-[#EE9322] font-bold text-3xl text-center mt-20">Mengapa SMP BPI Rancaekek?</h1>
+                        <p className="text-left mt-4">1. Sudah terakreditasi "B" <br/>2. Memiliki beberapa program unggulan<br/> 3. Beragam ekstrakurikuler sesuai minat dan bakat<br/>4. Fasilitas Lengkap<br/>5. Tenaga pendidik dan kependidikan yang profesional</p>
+                        <div className="flex justify-center"><a href="https://forms.gle/s12kvk4unqdfsejQA"><button className="text-2xl bg-[#005972] px-7 py-2 rounded-lg text-white mt-4 inline-flex">Daftar Sekarang<FaArrowRight className="ml-2 mt-[5px]"/></button></a></div>
                     </div>
                 </div>
             </div>
@@ -93,22 +93,23 @@ function home(){
                     <h1 className="text-center text-white text-xl font-serif">Profil SMP BPI RANCAEKEK</h1>
                 </div>
                 <div className="box-border bg-slate-200 w-[350px] h-[200px] rounded-lg shadow-lg">
-                    <p className="py-10 text-center text-sm px-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus fugit ab debitis dolorum dolores, dicta similique tenetur ea unde reprehenderit harum labore enim quia quo tempore, iusto neque placeat provident.</p>
+                    <p className="py-10 text-center text-sm px-4">SMP BPI Rancaekek merupakan Sekolah Menengah Pertama yang berada di Kab. Bandung. Berlokasi di desa Nanjung Mekar, Kec. Rancekek, Kab. Bandung. Sudah terakreditasi "B" dengan berbagai program unggulan untuk menunjang kompetensi akademik siswa serta beragam ekstrakurikuler sebagai sarana pengembangan minat dan bakat siswa.</p>
                 </div>
             </div>
-            <div className="lg:hidden mt-[70px] flex justify-center" data-aos="zoom-in-up" data-aos-duration="300">
-                <div className="box-border border-1 bg-white w-[400px] h-[370px] rounded-lg shadow-lg">
+            <div className="lg:hidden mt-[100px] flex justify-center mx-4" data-aos="zoom-in-up" data-aos-duration="300">
+                <div className="box-border border-1 bg-white w-[400px] h-[500px] rounded-lg shadow-lg">
                     <h1 className="text-center font-bold text-[#EE9322] text-xl mt-5">Mengapa SMP BPI Rancaekek</h1>
-                    <p className="text-sm ml-4 mt-5 w-[1/2]" data-aos="fade-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum dolorum deserunt iste ratione magni, dignissimos aut. Quam tempora perspiciatis unde, sed doloremque, vel perferendis harum expedita atque maiores laudantium cumque!</p>         
-                    <a href="https://forms.gle/s12kvk4unqdfsejQA"><button className="w-[150px] bg-[#005972] text-white py-1 rounded-lg ml-[117px] mt-10">Daftar Sekarang</button></a>
+                    <div className="flex justify-center" data-aos="fade-up"><img className="w-[200px] h-[200px]" src="./assets/image6.avif"/></div>
+                    <p className="text-sm mx-6 mt-5 text-left" data-aos="fade-up">1. Sudah terakreditasi "B"<br/>2. Memiliki beberapa program unggulan<br/>3. Beragam ekstrakurikuler sesuai minat dan bakat<br/>4. Fasilitas Lengkap<br/>5. Tenaga pendidik dan kependidikan yang profesional</p>         
+                    <a href="https://forms.gle/s12kvk4unqdfsejQA"><div className="flex justify-center"><button className="w-[150px] bg-[#005972] text-center text-white py-1 rounded-lg mt-10">Daftar Sekarang</button></div></a>
                 </div>
             </div>
             <div className="lg:hidden flex justify-center pb-[40px] mt-10" data-aos="fade-up">
                 <div className="box-border bg-[#EE9322] w-[300px] h-[450px] shadow-lg rounded-lg mt-10">
                     <div className="text-white text-center font-semibold mt-2 text-xl font-serif">Sambutan Kepala Sekolah</div>
-                    <img src="./assets/image5.jpg" className="w-[200px] ml-[50px] rounded-lg mt-4"/>
+                    <div className="flex justify-center"><img src="./assets/image5.jpg" className="w-[200px] rounded-lg mt-4"/></div>
                     <blockquote className="text-white ml-4 text-4xl mt-6">❝</blockquote>
-                    <div className="text-white -mt-10 ml-10 text-sm pr-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, veritatis! Unde veniam sunt distinctio asperiores, in eum et, consectetur, vero nam iusto nihil ut incidunt reprehenderit est perferendis illo odit.</div>
+                    <div className="text-white -mt-10 ml-14 text-sm pr-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, veritatis! Unde veniam sunt distinctio asperiores, in eum et, consectetur, vero nam iusto nihil ut incidunt reprehenderit est perferendis illo odit.</div>
                 </div>
             </div>
         <div className=""><Footer/></div>            

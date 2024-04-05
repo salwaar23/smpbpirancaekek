@@ -32,15 +32,29 @@ function visimisi(){
                 </div>
             </div>
             <div className="flex justify-center mt-10">
-                <div className="h-[190px] w-[300px] bg-[#EE9322] rounded-lg border-2">
-                    <h1 className="text-white font-serif text-center pt-4 font-bold">VISI</h1>
-                    <p className="text-white mx-4 text-center text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque quam velit voluptatum? Saepe hic ullam sequi id aperiam sed quae dolor inventore eum. Tempore, accusamus deleniti atque laborum repudiandae quo!</p>
+                <div className="h-[150px] w-[300px] bg-[#EE9322] rounded-lg border-2">
+                    <h1 className="text-white font-serif text-center pt-4 mb-2 font-bold">VISI</h1>
+                    <p className="text-white mx-4 text-center text-sm">"Terwujudnya Sumber Daya Manusia yang Cerdas, Terampil, Berakhlak, Beriman, dan Bertaqwa Kepada Tuhan Yang Maha Esa"</p>
                 </div>
             </div>
             <div className="flex justify-center mt-10">
-                <div className="h-[500px] w-[300px] bg-[#EE9322] rounded-lg border-2">
-                    <h1 className="text-white font-serif text-center pt-4 font-bold">MISI</h1>
-                    <p className="text-white mx-4 text-center text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque quam velit voluptatum? Saepe hic ullam sequi id aperiam sed quae dolor inventore eum. Tempore, accusamus deleniti atque laborum repudiandae quo!</p>
+                <div className="h-[300px] w-[300px] bg-[#EE9322] rounded-lg border-2">
+                    <h1 className="text-white font-serif text-center pt-4 mb-2 font-bold">MISI</h1>
+                    <p className="text-white mx-4 text-left text-sm">1. Meningkatkan Pelayanan Pendidikan Untuk Mengembangkan Kecerdasan (IQ)<br/>
+                    2. Melatih Dan Menolong Minat, Bakat, dan Kreatifitas Siswa Yang Berkepribadian (EQ)<br/>
+                    3. Mendidik dan Membiasakan Berperilaku Yang Religius Dalam Bersikap Di Dalam Lingkungan Sekolah
+                    </p>
+                </div>
+            </div>
+            <div className="flex justify-center mt-10">
+                <div className="h-[370px] w-[300px] bg-[#EE9322] rounded-lg border-2">
+                    <h1 className="text-white font-serif text-center pt-4 mb-2 font-bold">Tujuan</h1>
+                    <p className="text-white mx-4 text-left text-sm">1. Meningkatkan Etos Kerja Dan Profesionalitas Pendidik Dan Tenaga Kependidikan<br/>
+                    2. Meningkatkan Kualitas Siswa Dalam Bidang Akademis Dan Non Akademis<br/>
+                    3. Meningkatkan Kreatifitas Siswa, Kemandirian Siswa dan Peduli Terhadap Lingkungan<br/>
+                    4. Meningkatkan Sarana Dan Prasarana Belajar Yang Layak Berstandar<br/>
+                    5. Meningkatkan Sumber Daya Manusia Yang Religius, Berpengetahuan Luas, Dan Berkarakter Serta Berakhlak
+                    </p>
                 </div>
             </div>
             <Footer/>

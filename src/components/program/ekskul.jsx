@@ -12,19 +12,51 @@ function Ekstrakurikuler(){
                 <div className="inline-flex space-x-5 mt-7 pb-10 ml-10">
                     <div className="bg-white rounded-lg w-[300px] h-[200px] shadow-2xl">
                         <img src="./src/components/assets/image5.jpg" className="w-[240px] ml-7"/>
-                        <p className="text-center font-bold">Lorem Ipsum</p>
+                        <p className="text-center font-bold">Futsal</p>
                     </div>
                     <div className="bg-white rounded-lg w-[300px] h-[200px] shadow-2xl">
                         <img src="./src/components/assets/image5.jpg" className="w-[240px] ml-7"/>
-                        <p className="text-center font-bold">Lorem Ipsum</p>
+                        <p className="text-center font-bold">Paskibra</p>
                     </div>
                     <div className="bg-white rounded-lg w-[300px] h-[200px] shadow-2xl">
                         <img src="./src/components/assets/image5.jpg" className="w-[240px] ml-7"/>
-                        <p className="text-center font-bold">Lorem Ipsum</p>
+                        <p className="text-center font-bold">Pencak Silat</p>
                     </div>
                     <div className="bg-white rounded-lg w-[300px] h-[200px] shadow-2xl">
                         <img src="./src/components/assets/image5.jpg" className="w-[240px] ml-7"/>
-                        <p className="text-center font-bold">Lorem Ipsum</p>
+                        <p className="text-center font-bold">Pramuka</p>
+                    </div>
+                </div>
+                <div className="inline-flex space-x-5 mt-5 pb-10 ml-10">
+                    <div className="bg-white rounded-lg w-[300px] h-[200px] shadow-2xl">
+                        <img src="./src/components/assets/image5.jpg" className="w-[240px] ml-7"/>
+                        <p className="text-center font-bold">Paskibra</p>
+                    </div>
+                    <div className="bg-white rounded-lg w-[300px] h-[200px] shadow-2xl">
+                        <img src="./src/components/assets/image5.jpg" className="w-[240px] ml-7"/>
+                        <p className="text-center font-bold">Volleyball</p>
+                    </div>
+                    <div className="bg-white rounded-lg w-[300px] h-[200px] shadow-2xl">
+                        <img src="./src/components/assets/image5.jpg" className="w-[240px] ml-7"/>
+                        <p className="text-center font-bold">Basketball</p>
+                    </div>
+                    <div className="bg-white rounded-lg w-[300px] h-[200px] shadow-2xl">
+                        <img src="./src/components/assets/image5.jpg" className="w-[240px] ml-7"/>
+                        <p className="text-center font-bold">Tenis Meja</p>
+                    </div>
+                </div>
+                <div className="inline-flex space-x-5 mt-5 pb-10 ml-10">
+                    <div className="bg-white rounded-lg w-[300px] h-[200px] shadow-2xl">
+                        <img src="./src/components/assets/image5.jpg" className="w-[240px] ml-7"/>
+                        <p className="text-center font-bold">Tenis Meja</p>
+                    </div>
+                    <div className="bg-white rounded-lg w-[300px] h-[200px] shadow-2xl">
+                        <img src="./src/components/assets/image5.jpg" className="w-[240px] ml-7"/>
+                        <p className="text-center font-bold">Seni Tari Sunda</p>
+                    </div>
+                    <div className="bg-white rounded-lg w-[300px] h-[200px] shadow-2xl">
+                        <img src="./src/components/assets/image5.jpg" className="w-[240px] ml-7"/>
+                        <p className="text-center font-bold">Band</p>
                     </div>
                 </div>
             </div>
@@ -37,25 +69,55 @@ function Ekstrakurikuler(){
                 <div className="flex justify-center mt-7">
                     <div className="bg-white w-[200px] h-[170px] rouded-lg shadow-2xl">
                         <img src="./src/components/assets/image3.png"/>
-                        <p className="text-center font-bold">Lorem Ipsum</p>
+                        <p className="text-center font-bold">Futsal</p>
                     </div>
                 </div>
                 <div className="flex justify-center mt-7">
                     <div className="bg-white w-[200px] h-[170px] rouded-lg shadow-2xl">
                         <img src="./src/components/assets/image3.png"/>
-                        <p className="text-center font-bold">Lorem Ipsum</p>
+                        <p className="text-center font-bold">Pencak Silat</p>
                     </div>
                 </div>
                 <div className="flex justify-center mt-7">
                     <div className="bg-white w-[200px] h-[170px] rouded-lg shadow-2xl">
                         <img src="./src/components/assets/image3.png"/>
-                        <p className="text-center font-bold">Lorem Ipsum</p>
+                        <p className="text-center font-bold">Pramuka</p>
                     </div>
                 </div>
                 <div className="flex justify-center mt-7">
                     <div className="bg-white w-[200px] h-[170px] rouded-lg shadow-2xl">
                         <img src="./src/components/assets/image3.png"/>
-                        <p className="text-center font-bold">Lorem Ipsum</p>
+                        <p className="text-center font-bold">Paskibra</p>
+                    </div>
+                </div>
+                <div className="flex justify-center mt-7">
+                    <div className="bg-white w-[200px] h-[170px] rouded-lg shadow-2xl">
+                        <img src="./src/components/assets/image3.png"/>
+                        <p className="text-center font-bold">Volleyball</p>
+                    </div>
+                </div>
+                <div className="flex justify-center mt-7">
+                    <div className="bg-white w-[200px] h-[170px] rouded-lg shadow-2xl">
+                        <img src="./src/components/assets/image3.png"/>
+                        <p className="text-center font-bold">Basketball</p>
+                    </div>
+                </div>
+                <div className="flex justify-center mt-7">
+                    <div className="bg-white w-[200px] h-[170px] rouded-lg shadow-2xl">
+                        <img src="./src/components/assets/image3.png"/>
+                        <p className="text-center font-bold">Tenis Meja</p>
+                    </div>
+                </div>
+                <div className="flex justify-center mt-7">
+                    <div className="bg-white w-[200px] h-[170px] rouded-lg shadow-2xl">
+                        <img src="./src/components/assets/image3.png"/>
+                        <p className="text-center font-bold">Seni Tari Sunda</p>
+                    </div>
+                </div>
+                <div className="flex justify-center mt-7">
+                    <div className="bg-white w-[200px] h-[170px] rouded-lg shadow-2xl">
+                        <img src="./src/components/assets/image3.png"/>
+                        <p className="text-center font-bold">Band</p>
                     </div>
                 </div>
             </div>

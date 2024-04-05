@@ -94,7 +94,7 @@ function Sekolah(){
                         </tr>
                         <tr className="bg-[#EE9322]">
                             <td className="px-2 flex justify-top py-1">Alamat</td>
-                            <td className="px-2 pl-7 border-l-2 border-[#EE9322] py-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui omnis enim, minima velit, pariatur nam corrupti perferendis incidunt dolor eaque cumque eligendi consequatur harum inventore quaerat, illo fuga reprehenderit officiis.</td>
+                            <td className="px-2 pl-7 border-l-2 border-[#EE9322] py-1">Kp. Karapiak RT.03 RW.02 Kec. Rancaekek Kab. Bandung Jawa Barat 40394</td>
                         </tr>
                         <tr className="bg-[#FDE767]">
                             <td className="px-2 py-1">NPSN</td>
@@ -102,11 +102,11 @@ function Sekolah(){
                         </tr>
                         <tr className="bg-[#EE9322]">
                             <td className="px-2 py-1">Akreditasi</td>
-                            <td className="pl-7 border-l-2 border-[#EE9322]">lorem</td>
+                            <td className="pl-7 border-l-2 border-[#EE9322]">B</td>
                         </tr>
                         <tr className="bg-[#FDE767]">
                             <td className="px-2 py-1">Status&nbsp;Sekolah</td>
-                            <td className="pl-7">lorem</td>
+                            <td className="pl-7">Swasta</td>
                         </tr>
                         <tr className="bg-[#EE9322]">
                             <td className="px-2 py-1">Kurikulum</td>
@@ -114,7 +114,7 @@ function Sekolah(){
                         </tr>
                         <tr className="bg-[#FDE767]">
                             <td className="px-2 py-1">Telepon</td>
-                            <td className="pl-7">lorem</td>
+                            <td className="pl-7">02287837087</td>
                         </tr>
                         <tr className="bg-[#EE9322]">
                             <td className="px-2 py-1">Ruang Kelas</td>
@@ -126,22 +126,29 @@ function Sekolah(){
                         </tr>
                     </tbody>
                 </table>
-                <div className="text-center text-white mt-10 font-bold bg-[#005972] w-[200px] ml-[80px] rounded-lg" data-aos="fade-up">Kata Mereka</div>
-                <div className="bg-slate-200 justify-center w-[250px] ml-[55px] mt-4 rounded-lg shadow-2xl" data-aos="fade-up">
-                    <div><img src="./src/components/assets/image5.jpg" className="w-[150px] pt-4 ml-[50px]"/></div>
-                    <div className="text-center font-bold text-sm">Lorem Ipsum</div>
-                    <p className="px-2 py-2 text-xs">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus est ea itaque ad velit! Quisquam quidem tempore consequuntur, modi ipsa asperiores fugiat facere cumque natus iusto obcaecati. Incidunt, excepturi dolor!</p>
+                <div className="flex justify-center"><div className="text-center text-white mt-10 font-bold bg-[#005972] w-[200px] rounded-lg" data-aos="fade-up">Kata Mereka</div></div>
+                <div className="flex justify-center">
+                    <div className="bg-slate-200 w-[250px] mt-4 rounded-lg shadow-2xl" data-aos="fade-up">
+                        <div className="flex justify-center"><img src="./assets/image5.jpg" className="w-[150px] pt-4"/></div>
+                        <div className="text-center font-bold text-sm">Lorem Ipsum</div>
+                        <p className="px-2 py-2 text-xs">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus est ea itaque ad velit! Quisquam quidem tempore consequuntur, modi ipsa asperiores fugiat facere cumque natus iusto obcaecati. Incidunt, excepturi dolor!</p>
+                    </div>
                 </div>
-                <div className="bg-slate-200 justify-center w-[250px] ml-[55px] mt-10 rounded-lg shadow-2xl" data-aos="fade-up">
-                    <div><img src="./src/components/assets/image5.jpg" className="w-[150px] pt-4 ml-[50px]"/></div>
-                    <div className="text-center font-bold text-sm">Lorem Ipsum</div>
-                    <p className="px-2 py-2 text-xs">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus est ea itaque ad velit! Quisquam quidem tempore consequuntur, modi ipsa asperiores fugiat facere cumque natus iusto obcaecati. Incidunt, excepturi dolor!</p>
+                <div className="flex justify-center">
+                    <div className="bg-slate-200 w-[250px] mt-4 rounded-lg shadow-2xl" data-aos="fade-up">
+                        <div className="flex justify-center"><img src="./assets/image5.jpg" className="w-[150px] pt-4"/></div>
+                        <div className="text-center font-bold text-sm">Lorem Ipsum</div>
+                        <p className="px-2 py-2 text-xs">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus est ea itaque ad velit! Quisquam quidem tempore consequuntur, modi ipsa asperiores fugiat facere cumque natus iusto obcaecati. Incidunt, excepturi dolor!</p>
+                    </div>
                 </div>
-                <div className="bg-slate-200 justify-center w-[250px] ml-[55px] mt-10 rounded-lg shadow-2xl" data-aos="fade-up">
-                    <div><img src="./src/components/assets/image5.jpg" className="w-[150px] pt-4 ml-[50px]"/></div>
-                    <div className="text-center font-bold text-sm">Lorem Ipsum</div>
-                    <p className="px-2 py-2 text-xs">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus est ea itaque ad velit! Quisquam quidem tempore consequuntur, modi ipsa asperiores fugiat facere cumque natus iusto obcaecati. Incidunt, excepturi dolor!</p>
+                <div className="flex justify-center">
+                    <div className="bg-slate-200 w-[250px] mt-4 rounded-lg shadow-2xl" data-aos="fade-up">
+                        <div className="flex justify-center"><img src="./assets/image5.jpg" className="w-[150px] pt-4"/></div>
+                        <div className="text-center font-bold text-sm">Lorem Ipsum</div>
+                        <p className="px-2 py-2 text-xs">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus est ea itaque ad velit! Quisquam quidem tempore consequuntur, modi ipsa asperiores fugiat facere cumque natus iusto obcaecati. Incidunt, excepturi dolor!</p>
+                    </div>
                 </div>
+                
             </div>
             <div className="mt-10"><Footer/></div>
         </div>
