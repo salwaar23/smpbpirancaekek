@@ -10,6 +10,7 @@ function Prosedur(){
             <div id="desktop" className="lg:block hidden mt-[130px]">
                 <h1 className="text-[#005972] text-xl font-serif font-bold text-center">Prosedur Pendaftaran</h1>
                 <p className="text-[#005972] text-md font-serif text-center">SMP BPI RANCAEKEK</p>
+                <div><Footer/></div>
             </div>
 
             <div id="mobile" className="lg:hidden mt-[100px] pb-[120px]">
@@ -24,9 +25,9 @@ function Prosedur(){
                         <button className="bg-[#005972] w-[150px] text-center mt-5 text-white rounded-xl py-2">Daftar Sekarang</button>
                     </div></Link>
                 </div>
-
+                <div className="fixed bottom-0"><Footer/></div>
             </div>
-            <div className=""><Footer/></div>
+            
         </main>
     )
 }

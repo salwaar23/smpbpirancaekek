@@ -57,7 +57,7 @@ function home(){
             </div>
             <div className="lg:block hidden mt-[100px] ml-10">
                 <div className="inline-flex space-x-[250px]">
-                    <img src="./assets/image6.avif" className="h-[400px] rounded-lg"/>
+                    <img src="./assets/image6.png" className="h-[400px] rounded-lg"/>
                     <div data-aos="flip-up">
                         <h1 className="text-[#EE9322] font-bold text-3xl text-center mt-20">Mengapa SMP BPI Rancaekek?</h1>
                         <p className="text-left mt-4">1. Sudah terakreditasi "B" <br/>2. Memiliki beberapa program unggulan<br/> 3. Beragam ekstrakurikuler sesuai minat dan bakat<br/>4. Fasilitas Lengkap<br/>5. Tenaga pendidik dan kependidikan yang profesional</p>
@@ -99,7 +99,7 @@ function home(){
             <div className="lg:hidden mt-[100px] flex justify-center mx-4" data-aos="zoom-in-up" data-aos-duration="300">
                 <div className="box-border border-1 bg-white w-[400px] h-[500px] rounded-lg shadow-lg">
                     <h1 className="text-center font-bold text-[#EE9322] text-xl mt-5">Mengapa SMP BPI Rancaekek</h1>
-                    <div className="flex justify-center" data-aos="fade-up"><img className="w-[200px] h-[200px]" src="./assets/image6.avif"/></div>
+                    <div className="flex justify-center" data-aos="fade-up"><img className="w-[200px] h-[200px]" src="./assets/image6.png"/></div>
                     <p className="text-sm mx-6 mt-5 text-left" data-aos="fade-up">1. Sudah terakreditasi "B"<br/>2. Memiliki beberapa program unggulan<br/>3. Beragam ekstrakurikuler sesuai minat dan bakat<br/>4. Fasilitas Lengkap<br/>5. Tenaga pendidik dan kependidikan yang profesional</p>         
                     <a href="https://forms.gle/s12kvk4unqdfsejQA"><div className="flex justify-center"><button className="w-[150px] bg-[#005972] text-center text-white py-1 rounded-lg mt-10">Daftar Sekarang</button></div></a>
                 </div>

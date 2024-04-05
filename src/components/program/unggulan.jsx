@@ -52,7 +52,7 @@ function Unggulan(){
                     </p>
                 </div>
             </div>
-            <div className=""><Footer/></div>
+            <div className="fixed bottom-0"><Footer/></div>
         </div>
     )
 }
