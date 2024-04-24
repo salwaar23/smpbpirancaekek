@@ -37,9 +37,7 @@ function Unggulan(){
                     <p className="ml-10">
                         1. Pembinaan Akhlak<br/>
                         2. Malam Bina Iman dan Taqwa (Mabit)<br/>
-                        3. Tahfidz Qur'an<br/>
-                        4. English Elementary<br/>
-                        5. Arabic Language
+                        3. Bintalis<br/>
                     </p>
                 </div>
                 <div className="fixed bottom-0"><Footer/></div>

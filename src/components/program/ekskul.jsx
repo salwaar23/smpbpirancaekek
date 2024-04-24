@@ -38,48 +38,6 @@ function Ekstrakurikuler(){
                         <p className="text-center font-bold">Pencak Silat</p>
                     </div>
                 </div>
-                <div className="flex justify-center mt-7">
-                    <div className="bg-white w-[200px] h-[170px] rouded-lg shadow-2xl">
-                        <img src="./src/components/assets/image3.png"/>
-                        <p className="text-center font-bold">Pramuka</p>
-                    </div>
-                </div>
-                <div className="flex justify-center mt-7">
-                    <div className="bg-white w-[200px] h-[170px] rouded-lg shadow-2xl">
-                        <img src="./src/components/assets/image3.png"/>
-                        <p className="text-center font-bold">Paskibra</p>
-                    </div>
-                </div>
-                <div className="flex justify-center mt-7">
-                    <div className="bg-white w-[200px] h-[170px] rouded-lg shadow-2xl">
-                        <img src="./src/components/assets/image3.png"/>
-                        <p className="text-center font-bold">Volleyball</p>
-                    </div>
-                </div>
-                <div className="flex justify-center mt-7">
-                    <div className="bg-white w-[200px] h-[170px] rouded-lg shadow-2xl">
-                        <img src="./src/components/assets/image3.png"/>
-                        <p className="text-center font-bold">Basketball</p>
-                    </div>
-                </div>
-                <div className="flex justify-center mt-7">
-                    <div className="bg-white w-[200px] h-[170px] rouded-lg shadow-2xl">
-                        <img src="./src/components/assets/image3.png"/>
-                        <p className="text-center font-bold">Tenis Meja</p>
-                    </div>
-                </div>
-                <div className="flex justify-center mt-7">
-                    <div className="bg-white w-[200px] h-[170px] rouded-lg shadow-2xl">
-                        <img src="./src/components/assets/image3.png"/>
-                        <p className="text-center font-bold">Seni Tari Sunda</p>
-                    </div>
-                </div>
-                <div className="flex justify-center mt-7">
-                    <div className="bg-white w-[200px] h-[170px] rouded-lg shadow-2xl">
-                        <img src="./src/components/assets/image3.png"/>
-                        <p className="text-center font-bold">Band</p>
-                    </div>
-                </div>
             </div>
             <Footer/>
         </div>

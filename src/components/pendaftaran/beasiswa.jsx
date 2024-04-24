@@ -22,7 +22,7 @@ function Beasiswa(){
                     <h1 className="ml-2 font-serif font-bold text-lg">Beasiswa</h1>
                     <p className="ml-2 font-serif text-sm">SMP BPI RANCAEKEK</p>
                 </div>
-                <div>
+                <div className="ml-10">
                     <p>SMP BPI Rancaekek menyediakan beberapa beasiswa, antara lain :</p>
                     <p>1. Beasiswa </p>
                     <p>2. Beasiswa </p>
