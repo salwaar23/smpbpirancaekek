@@ -10,14 +10,24 @@ function visimisi(){
             <div className="lg:block hidden max-width:768px mt-[130px]">
                 <div className="text-[#005972] text-center font-serif text-xl font-bold">VISI & MISI</div>
                 <div className="text-[#005972] text-center font-serif text-md">SMP BPI RANCAEKEK</div>
-                <div className="border-2 bg-[#EE9322] w-[600px] h-[200px] rounded-lg ml-[370px] mt-7 shadow-xl">
+                <div className="flex justify-center"><div className="border-2 bg-[#EE9322] w-[600px] h-[160px] rounded-lg mt-7">
                     <p className="text-white text-center pt-2 font-serif font-bold text-xl">VISI</p>
-                    <p className="text-white px-4 mt-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates explicabo facilis placeat id optio? Impedit perferendis, consectetur labore corporis suscipit, deserunt tempore perspiciatis animi cupiditate eaque soluta doloremque mollitia ipsa?</p>
-                </div>
-                <div className="border-2 bg-[#EE9322] w-[600px] h-[400px] rounded-lg ml-[370px] mt-7 shadow-xl">
+                    <p className="text-white px-4 mt-4 text-center text-lg">"Terwujudnya Sumber Daya Manusia yang Cerdas, Terampil, Berakhlak, Beriman, dan Bertaqwa Kepada Tuhan Yang Maha Esa"</p>
+                </div></div>
+                <div className="flex justify-center"><div className="border-2 bg-[#EE9322] w-[600px] h-[260px] rounded-lg mt-7 shadow-xl">
                     <p className="text-white text-center pt-2 font-serif font-bold text-xl">MISI</p>
-                    <p className="text-white px-4 mt-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates explicabo facilis placeat id optio? Impedit perferendis, consectetur labore corporis suscipit, deserunt tempore perspiciatis animi cupiditate eaque soluta doloremque mollitia ipsa?</p>
-                </div>
+                    <p className="text-white px-4 mt-4">1. Meningkatkan Pelayanan Pendidikan Untuk Mengembangkan Kecerdasan (IQ)<br/>
+                    2. Melatih Dan Menolong Minat, Bakat, dan Kreatifitas Siswa Yang Berkepribadian (EQ)<br/>
+                    3. Mendidik dan Membiasakan Berperilaku Yang Religius Dalam Bersikap Di Dalam Lingkungan Sekolah</p>
+                </div></div>
+                <div className="flex justify-center"><div className="border-2 bg-[#EE9322] w-[600px] h-[300px] rounded-lg mt-7 shadow-xl">
+                    <p className="text-white text-center pt-2 font-serif font-bold text-xl">Tujuan</p>
+                    <p className="text-white px-4 mt-4">1. Meningkatkan Etos Kerja Dan Profesionalitas Pendidik Dan Tenaga Kependidikan<br/>
+                    2. Meningkatkan Kualitas Siswa Dalam Bidang Akademis Dan Non Akademis<br/>
+                    3. Meningkatkan Kreatifitas Siswa, Kemandirian Siswa dan Peduli Terhadap Lingkungan<br/>
+                    4. Meningkatkan Sarana Dan Prasarana Belajar Yang Layak Berstandar<br/>
+                    5. Meningkatkan Sumber Daya Manusia Yang Religius, Berpengetahuan Luas, Dan Berkarakter Serta Berakhlak</p>
+                </div></div>
                 <Footer/>
             </div>
 

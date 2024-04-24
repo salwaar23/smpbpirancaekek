@@ -8,7 +8,7 @@ function Kurikulum(){
             <Nav/>
             <div id="desktop" className="lg:block hidden mt-[130px]">
                 <div id="header">
-                    <h1 className="text-[#005972] text-center font-serif text-xl font-bold">Kurikulum</h1>
+                    <h1 className="text-[#005972] text-center font-serif text-xl font-bold">Kegiatan</h1>
                     <p className="text-[#005972] text-center font-serif text-md">SMP BPI RANCAEKEK</p>
                 </div>
                 <div className="mt-5 pb-[110px]">

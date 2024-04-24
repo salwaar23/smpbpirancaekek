@@ -20,20 +20,11 @@ function Unggulan(){
                     </div>
                     <div className="bg-white rounded-lg w-[300px] h-[200px] shadow-2xl">
                         <img src="./src/components/assets/image5.jpg" className="w-[240px] ml-7"/>
-                        <p className="text-center font-bold">Tahfidz Qur'an</p>
+                        <p className="text-center font-bold">Bintalis</p>
                     </div>
                 </div>
                 </div>
-                <div className="flex justify-center"><div className="inline-flex space-x-5 mt-7 ml-10">
-                    <div className="bg-white rounded-lg w-[300px] h-[200px] shadow-2xl">
-                        <img src="./src/components/assets/image5.jpg" className="w-[240px] ml-7"/>
-                        <p className="text-center font-bold">English Elementary</p>
-                    </div>
-                    <div className="bg-white rounded-lg w-[300px] h-[200px] shadow-2xl">
-                        <img src="./src/components/assets/image5.jpg" className="w-[240px] ml-7"/>
-                        <p className="text-center font-bold">Arabic Language</p>
-                    </div>
-                </div></div>
+                <div><Footer/></div>
             </div>
 
             <div id="mobile" className="lg:hidden mt-[100px] pb-[95px]">
@@ -51,8 +42,9 @@ function Unggulan(){
                         5. Arabic Language
                     </p>
                 </div>
+                <div className="fixed bottom-0"><Footer/></div>
             </div>
-            <div className="fixed bottom-0"><Footer/></div>
+            
         </div>
     )
 }

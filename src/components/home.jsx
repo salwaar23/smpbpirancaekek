@@ -41,24 +41,24 @@ function home(){
         <div>
             <Nav />
             <div id="desktop-carousel" className="lg:block hidden max-width:768px mt-[100px]">
-                <div id="main" className="bg-[#005972] inline-flex py-10">
+                <div id="main" className="bg-[#005972] inline-flex py-10 w-full h-[380px]">
                     <div className="mt-[100px] ml-6">
                         <span className="text-3xl font-serif text-white font-bold">Profil&nbsp;SMP&nbsp;BPI&nbsp;Rancaekek</span><br />
-                        <p className="text-sm text-white">SMP BPI Rancaekek merupakan Sekolah Menengah Pertama yang berada di Kab. Bandung. Berlokasi di <br/>desa Nanjung Mekar, Kec. Rancekek, Kab. Bandung. Sudah terakreditasi "B" dengan berbagai program unggulan untuk menunjang kompetensi akademik siswa.</p>
+                        <p className="text-sm text-white ">SMP BPI Rancaekek merupakan Sekolah Menengah Pertama yang berada di Kab. Bandung. Berlokasi di <br/>desa Nanjung Mekar, Kec. Rancekek, Kab. Bandung. Sudah terakreditasi "B" dengan berbagai program unggulan untuk menunjang<br/> kompetensi akademik siswa.</p>
                     </div>
-                <button onClick={handlePreviousSlide} className="absolute right-[420px] top-[270px] bg-white rounded-full p-2"><GrPrevious/></button>
-                <div className="overflow-auto rounded-lg w-[500px] h-[300px] ml-[100px] mr-[70px]">
-                    <img src={images[currentSlide]} 
-                        alt="Carousel Image"
-                        className="h-[300px]" />         
-                </div>
-                <button onClick={handleNextSlide} className="absolute right-[80px] top-[270px] bg-white rounded-full p-2"><GrNext/></button>
+                    <div className="overflow-auto rounded-lg w-[400px] h-[300px] absolute right-14">
+                        <img src={images[currentSlide]} 
+                            alt="Carousel Image"
+                            className="h-[300px]" />         
+                        </div>
+                    <button onClick={handlePreviousSlide} className="absolute right-[400px] top-[270px] bg-white rounded-full p-2"><GrPrevious/></button>
+                    <button onClick={handleNextSlide} className="absolute right-[80px] top-[270px] bg-white rounded-full p-2"><GrNext/></button>
                 </div>
             </div>
             <div className="lg:block hidden mt-[100px] ml-10">
-                <div className="inline-flex space-x-[250px]">
-                    <img src="./assets/image6.png" className="h-[400px] rounded-lg"/>
-                    <div data-aos="flip-up">
+                <div className="inline-flex">
+                    <img src="./assets/image6.png" className="h-[400px] rounded-lg sticky left-[100px]"/>
+                    <div className="absolute right-[150px]" data-aos="flip-up">
                         <h1 className="text-[#EE9322] font-bold text-3xl text-center mt-20">Mengapa SMP BPI Rancaekek?</h1>
                         <p className="text-left mt-4">1. Sudah terakreditasi "B" <br/>2. Memiliki beberapa program unggulan<br/> 3. Beragam ekstrakurikuler sesuai minat dan bakat<br/>4. Fasilitas Lengkap<br/>5. Tenaga pendidik dan kependidikan yang profesional</p>
                         <div className="flex justify-center"><a href="https://forms.gle/s12kvk4unqdfsejQA"><button className="text-2xl bg-[#005972] px-7 py-2 rounded-lg text-white mt-4 inline-flex">Daftar Sekarang<FaArrowRight className="ml-2 mt-[5px]"/></button></a></div>
@@ -72,7 +72,7 @@ function home(){
                             <div className="text-white text-3xl font-bold mt-20">Sambutan Kepala Sekolah</div>
                             <p className="text-white text-sm mt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos et ratione mollitia, ex animi nulla atque id<br/> cum optio quod eveniet tempora deserunt quam est. Rem sit iusto nam voluptatibus!</p>
                         </div>
-                        <img src="./assets/image5.jpg" className="w-[400px] ml-[200px]"/>
+                        <img src="./assets/image5.jpg" className="w-[400px] ml-[200px] absolute right-16"/>
                     </div>
                 </div>
             </div>
@@ -93,7 +93,7 @@ function home(){
                     <h1 className="text-center text-white text-xl font-serif">Profil SMP BPI RANCAEKEK</h1>
                 </div>
                 <div className="box-border bg-slate-200 w-[350px] h-[200px] rounded-lg shadow-lg">
-                    <p className="py-10 text-center text-sm px-4">SMP BPI Rancaekek merupakan Sekolah Menengah Pertama yang berada di Kab. Bandung. Berlokasi di desa Nanjung Mekar, Kec. Rancekek, Kab. Bandung. Sudah terakreditasi "B" dengan berbagai program unggulan untuk menunjang kompetensi akademik siswa serta beragam ekstrakurikuler sebagai sarana pengembangan minat dan bakat siswa.</p>
+                    <p className="py-10 text-center text-sm px-4 pb-4">SMP BPI Rancaekek merupakan Sekolah Menengah Pertama yang berada di Kab. Bandung. Berlokasi di desa Nanjung Mekar, Kec. Rancekek, Kab. Bandung. Sudah terakreditasi "B" dengan berbagai program unggulan untuk menunjang kompetensi akademik siswa serta beragam ekstrakurikuler sebagai sarana pengembangan minat dan bakat siswa.</p>
                 </div>
             </div>
             <div className="lg:hidden mt-[100px] flex justify-center mx-4" data-aos="zoom-in-up" data-aos-duration="300">

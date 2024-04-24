@@ -31,7 +31,8 @@ function Nav(){
                     <div className="text-xl ml-5 font-bold text-[#EE9322]">SMP BPI RANCAEKEK</div>
                     <div className="text-sm ml-5 font-bold text-[#005972]">Tangguh, Berprestasi, Dipercaya</div>
                 </div>
-                <Link to={`/`}><div className="text-[#005972] mt-3 ml-[550px] hover:font-bold">Beranda</div></Link>
+                <div className="inline-flex fixed top-5 right-10">
+                <Link to={`/`}><div className="text-[#005972] mt-3 hover:font-bold">Beranda</div></Link>
                 <div className="mt-3 ml-4">
                     <button onClick={toggleSubMenu}>
                     <p className="text-[#005972] inline-flex ml-4 hover:font-bold">
@@ -101,6 +102,7 @@ function Nav(){
                 <Link to={`/kontak`}>
                     <div className="text-[#005972] mt-3 ml-[20px] hover:font-bold">Kontak</div>
                 </Link>
+                </div>
             </div>
 
             
@@ -164,7 +166,7 @@ function Nav(){
                     </button>
                     {subMenuOpen2 && (
                         <ul className="absolute pl-5">
-                            <Link to={`/kurikulum`} className="w-full">
+                            <Link to={`/kurikulum`} className="">
                                 <li className="mt-1 hover:font-bold">Kegiatan</li>
                             </Link>
                             <Link to={`/unggulan`} className="">
