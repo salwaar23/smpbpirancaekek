@@ -10,7 +10,6 @@ import Unggulan from "./components/program/unggulan";
 import Ekstrakurikuler from "./components/program/ekskul";
 import Prosedur from "./components/pendaftaran/prosedur";
 import Biaya from "./components/pendaftaran/biaya";
-import Beasiswa from "./components/pendaftaran/beasiswa";
 import Kontak from "./components/kontak";
 import Footer from "./components/Footer";
 
@@ -30,7 +29,6 @@ function App() {
         <Route path="/ekskul" element={<Ekstrakurikuler/>}/>
         <Route path="/prosedur" element={<Prosedur/>}/>
         <Route path="/biaya" element={<Biaya/>}/>
-        <Route path="/beasiswa" element={<Beasiswa/>}/>
         <Route path="/kontak" element={<Kontak/>}/>
         <Route path="/footer" element={<Footer/>}/>
     </Routes>

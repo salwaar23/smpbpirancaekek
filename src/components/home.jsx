@@ -69,8 +69,8 @@ function home(){
                 <div className="bg-[#EE9322] w-full h-[400px] shadow-xl">
                     <div className="inline-flex mt-[60px]">
                         <div className="ml-10 pt-5">
-                            <div className="text-white text-3xl font-bold mt-20">Sambutan Kepala Sekolah</div>
-                            <p className="text-white text-sm mt-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos et ratione mollitia, ex animi nulla atque id<br/> cum optio quod eveniet tempora deserunt quam est. Rem sit iusto nam voluptatibus!</p>
+                            <div className="text-white text-3xl font-bold mt-20">Bebas Biaya 100%</div>
+                            <p className="text-white text-sm mt-4">*S&K berlaku. Segera hubungi kami untuk informasi selengkapnya</p>
                         </div>
                         <img src="./assets/image5.jpg" className="w-[400px] ml-[200px] absolute right-16"/>
                     </div>
@@ -105,11 +105,10 @@ function home(){
                 </div>
             </div>
             <div className="lg:hidden flex justify-center pb-[40px] mt-10" data-aos="fade-up">
-                <div className="box-border bg-[#EE9322] w-[300px] h-[450px] shadow-lg rounded-lg mt-10">
-                    <div className="text-white text-center font-semibold mt-2 text-xl font-serif">Sambutan Kepala Sekolah</div>
+                <div className="box-border bg-[#EE9322] w-[300px] h-[300px] shadow-lg rounded-lg mt-10">
+                    <div className="text-white text-center font-semibold mt-2 text-xl font-serif">Bebas Biaya 100%</div>
                     <div className="flex justify-center"><img src="./assets/image5.jpg" className="w-[200px] rounded-lg mt-4"/></div>
-                    <blockquote className="text-white ml-4 text-4xl mt-6">❝</blockquote>
-                    <div className="text-white -mt-10 ml-14 text-sm pr-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, veritatis! Unde veniam sunt distinctio asperiores, in eum et, consectetur, vero nam iusto nihil ut incidunt reprehenderit est perferendis illo odit.</div>
+                    <div className="text-white ml-7 mt-10 text-sm pr-4">*S&K berlaku. Segera hubungi kami untuk informasi selengkapnya</div>
                 </div>
             </div>
         <div className=""><Footer/></div>            

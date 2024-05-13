@@ -28,7 +28,15 @@ function Kontak(){
                         </div><br/>
                         <div className="inline-flex">
                             <div className="text-green-700 text-2xl"><FaWhatsapp/></div>
-                            <p className="ml-2 font-serif">lorem ipsum</p>
+                            <p className="ml-2 font-serif">082240649261 (Intan Sari)</p>
+                        </div><br/>
+                        <div className="inline-flex">
+                            <div className="text-green-700 text-2xl"><FaWhatsapp/></div>
+                            <p className="ml-2 font-serif">089628415865 (Desty Ayu Suciati)</p>
+                        </div><br/>
+                        <div className="inline-flex">
+                            <div className="text-green-700 text-2xl"><FaWhatsapp/></div>
+                            <p className="ml-2 font-serif">085601064890 (Ginanjar Saehab)</p>
                         </div>
                     </div> 
                 </div>
@@ -55,10 +63,18 @@ function Kontak(){
                         </div><br/>
                         <div className="inline-flex">
                             <div className="text-green-700 text-2xl"><FaWhatsapp/></div>
-                            <p className="ml-2 font-serif">lorem ipsum</p>
+                            <p className="ml-2 font-serif">082240649261 (Intan Sari)</p>
+                        </div><br/>
+                        <div className="inline-flex">
+                            <div className="text-green-700 text-2xl"><FaWhatsapp/></div>
+                            <p className="ml-2 font-serif">089628415865 (Desty Ayu Suciati)</p>
+                        </div><br/>
+                        <div className="inline-flex">
+                            <div className="text-green-700 text-2xl"><FaWhatsapp/></div>
+                            <p className="ml-2 font-serif">085601064890 (Ginanjar Saehab)</p>
                         </div>
                     </div> 
-                <div className="absolute bottom-0"><Footer/></div>
+                <div className="bottom-0"><Footer/></div>
             </div>
             
         </div>

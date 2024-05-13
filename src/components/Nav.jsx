@@ -27,6 +27,7 @@ function Nav(){
     return(
         <nav className="fixed top-0 left-0 w-full z-50">
             <div className="lg:flex max-width:768px hidden inline-flex bg-white py-5 w-screen overflow-hidden shadow-lg">
+                <div className="w-[45px] ml-5 mt-[3px]"><img src="./assets/logo.jpg"/></div>
                 <div>
                     <div className="text-xl ml-5 font-bold text-[#EE9322]">SMP BPI RANCAEKEK</div>
                     <div className="text-sm ml-5 font-bold text-[#005972]">Tangguh, Berprestasi, Dipercaya</div>
@@ -93,9 +94,6 @@ function Nav(){
                             <Link to={`/biaya`} className="">
                                 <p className="mt-1 text-[#005972] hover:font-bold">Biaya</p>
                             </Link>
-                            <Link to={`/beasiswa`} className="">
-                                <p className="mt-1 text-[#005972] hover:font-bold">Beasiswa</p>
-                            </Link>
                         </ul>
                     )}
                 </div>
@@ -107,6 +105,7 @@ function Nav(){
 
             
             <div className="lg:hidden inline-flex bg-white shadow-xl pb-3 w-screen">
+            <div className="w-[35px] ml-5 mt-5"><img src="./assets/logo.jpg"/></div>
             <div>
                 <div className="text-md mt-4 ml-3 font-bold text-[#EE9322]">SMP&nbsp;BPI&nbsp;RANCAEKEK</div>
                 <div className="text-[10px] ml-3 font-bold text-[#005972]">Tangguh, Beprestasi, dan Dipercaya</div>
@@ -203,9 +202,6 @@ function Nav(){
                             <Link to={`/biaya`} className="">
                                 <li className="mt-1 hover:font-bold">Biaya</li>
                             </Link>
-                            <Link to={`/beasiswa`} className="">
-                                <li className="mt-1 hover:font-bold">Beasiswa</li>
-                            </Link>
                         </ul>
                     )}
                     </li>
@@ -221,7 +217,7 @@ function Nav(){
                     `}> 
                     <div className={`
                         transition duration-100 ease-in-out transform mt-2
-                        ${subMenuOpen3 ? "translate-y-[100px]" : ""} 
+                        ${subMenuOpen3 ? "translate-y-[70px]" : ""} 
                     `}> 
                     <li className="ml-4">
                     
