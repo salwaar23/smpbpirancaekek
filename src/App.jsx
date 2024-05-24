@@ -16,7 +16,7 @@ import Footer from "./components/Footer";
 function App() {
 
   return (
-    <BrowserRouter basename="/">
+    <BrowserRouter basename="/smpbpirancaekek">
     <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/nav" element={<Nav/>}/>
