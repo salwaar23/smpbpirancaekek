@@ -27,7 +27,7 @@ function Sekolah(){
                         </tr>
                         <tr className="bg-[#EE9322]">
                             <td className="px-2 flex justify-top py-1">Alamat</td>
-                            <td className="px-2 pl-7 border-l-2 border-[#EE9322] py-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui omnis enim, minima velit, pariatur nam corrupti perferendis incidunt dolor eaque cumque eligendi consequatur harum inventore quaerat, illo fuga reprehenderit officiis.</td>
+                            <td className="px-2 pl-7 border-l-2 border-[#EE9322] py-1">Kp. Karapiak RT.03 RW.02 Kec. Rancaekek Kab. Bandung Jawa Barat 40394</td>
                         </tr>
                         <tr className="bg-[#FDE767]">
                             <td className="px-2 py-1">NPSN</td>
