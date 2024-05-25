@@ -38,6 +38,7 @@ function Unggulan(){
                         1. Pembinaan Akhlak<br/>
                         2. Malam Bina Iman dan Taqwa (Mabit)<br/>
                         3. Bintalis<br/>
+                        4. Beasiswa
                     </p>
                 </div>
                 <div className="fixed bottom-0"><Footer/></div>

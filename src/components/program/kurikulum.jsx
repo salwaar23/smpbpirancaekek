@@ -24,7 +24,7 @@ function Kurikulum(){
                 </div>
                 <div className="mt-7 ml-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod officiis exercitationem illo vitae rerum iusto atque ea fugiat minus dolor esse molestias ullam quae, soluta tenetur voluptates tempora voluptatibus quas.</div>
             </div>
-            <div><Footer/></div>
+            <div className="fixed bottom-0"><Footer/></div>
         </div>
     )
 }

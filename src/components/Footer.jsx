@@ -7,7 +7,7 @@ import { GrMail } from "react-icons/gr";
 function Footer(){
     return(
         <footer>
-                <div id="desktop" className="lg:block hidden box-border bg-[#005972] mt-10">
+                <div id="desktop" className="lg:block hidden box-border bg-[#005972] mt-10 w-screen">
                     <h1 className="text-white text-2xl ml-2 font-bold pt-4">Kontak Kami</h1>
                     <div className="inline-flex">
                         <p className="text-red-700 text-xl ml-2 pt-2"><FaLocationDot/></p>

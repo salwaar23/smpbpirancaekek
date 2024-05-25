@@ -74,7 +74,7 @@ function Kontak(){
                             <p className="ml-2 font-serif">085601064890 (Ginanjar Saehab)</p>
                         </div>
                     </div> 
-                <div className="bottom-0"><Footer/></div>
+                <div className="fixed bottom-0"><Footer/></div>
             </div>
             
         </div>
