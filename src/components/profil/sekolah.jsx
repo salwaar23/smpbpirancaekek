@@ -31,7 +31,7 @@ function Sekolah(){
                         </tr>
                         <tr className="bg-[#FDE767]">
                             <td className="px-2 py-1">NPSN</td>
-                            <td className="pl-7 py-1">0976499</td>
+                            <td className="pl-7 py-1">20254092</td>
                         </tr>
                         <tr className="bg-[#EE9322]">
                             <td className="px-2 py-1">Akreditasi</td>
@@ -98,7 +98,7 @@ function Sekolah(){
                         </tr>
                         <tr className="bg-[#FDE767]">
                             <td className="px-2 py-1">NPSN</td>
-                            <td className="pl-7 py-1">0976499</td>
+                            <td className="pl-7 py-1">20254092</td>
                         </tr>
                         <tr className="bg-[#EE9322]">
                             <td className="px-2 py-1">Akreditasi</td>
